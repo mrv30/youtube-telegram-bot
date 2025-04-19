@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: youtube-telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7716148870:AAHz2HaK5zNtHTGxffcaIDahIWu3ljwErJk
